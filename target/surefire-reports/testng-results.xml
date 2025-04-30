@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-30T07:33:14 AST" name="Suite" finished-at="2025-04-30T07:34:40 AST" duration-ms="86499">
+    <groups>
+    </groups>
+    <test started-at="2025-04-30T07:33:14 AST" name="Test1" finished-at="2025-04-30T07:34:09 AST" duration-ms="54840">
+      <class name="lamda.test.TestScenario1">
+        <test-method signature="simpleFormDemoTest()[pri:0, instance:lamda.test.TestScenario1@6e171cd7]" started-at="2025-04-30T07:33:14 AST" name="simpleFormDemoTest" finished-at="2025-04-30T07:34:09 AST" duration-ms="54777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleFormDemoTest -->
+      </class> <!-- lamda.test.TestScenario1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-04-30T07:34:09 AST" name="Test2" finished-at="2025-04-30T07:34:21 AST" duration-ms="11687">
+      <class name="lamda.test.TestScenario2">
+        <test-method signature="rangeTest()[pri:0, instance:lamda.test.TestScenario2@1623b78d]" started-at="2025-04-30T07:34:09 AST" name="rangeTest" finished-at="2025-04-30T07:34:21 AST" duration-ms="11682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rangeTest -->
+      </class> <!-- lamda.test.TestScenario2 -->
+    </test> <!-- Test2 -->
+    <test started-at="2025-04-30T07:34:21 AST" name="Test3" finished-at="2025-04-30T07:34:40 AST" duration-ms="19905">
+      <class name="lamda.test.TestScenario3">
+        <test-method signature="inputFormTest()[pri:0, instance:lamda.test.TestScenario3@4ec4f3a0]" started-at="2025-04-30T07:34:21 AST" name="inputFormTest" finished-at="2025-04-30T07:34:40 AST" duration-ms="19897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputFormTest -->
+      </class> <!-- lamda.test.TestScenario3 -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+</testng-results>

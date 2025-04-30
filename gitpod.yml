@@ -1,0 +1,4 @@
+tasks:
+  - name: Run Tests
+    init: mvn clean install
+    command: mvn test
