@@ -2,22 +2,36 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="2" parallel="tests" name="Suite">
 
-  <test name="Test1">
-  <classes>
-  <class name="lamda.test.TestScenario1"/>
-  </classes>
-  </test> <!-- Test -->
+ <test name="Firefox on macOS Catalina">
+    <parameter name="browserName" value="Firefox"/>
+    <parameter name="platform" value="macOS Catalina"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="lamda.test.TestScenario1"/>
+    </classes>
+  </test>
   
-  <test name="Test2">
-  <classes>
-  <class name="lamda.test.TestScenario2"/>
-  </classes>
-  </test> <!-- Test -->
+  <test name="Chrome on Windows 10">
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="lamda.test.TestScenario2"/>
+    </classes>
+  </test>
+
+ 
   
-  <test name="Test3">
-  <classes>
-  <class name="lamda.test.TestScenario3"/>
-  </classes>
-  </test> <!-- Test -->
   
-</suite> <!-- Suite -->
+<test name="Edge on Windows 10">
+    <parameter name="browserName" value="Edge"/>
+    <parameter name="platform" value="Windows 10"/>
+    <parameter name="browserVersion" value="latest"/>
+    <classes>
+      <class name="lamda.test.TestScenario3"/>
+    </classes>
+  </test>
+  
+  
+  
+</suite>

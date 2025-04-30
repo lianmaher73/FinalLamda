@@ -5,7 +5,9 @@ import java.net.URISyntaxException;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -17,9 +19,12 @@ public class TestScenario1 {
 	Setcapabilities capabilities;
 
 	@BeforeClass
-	public void setUp() throws MalformedURLException, URISyntaxException {
+	@Parameters({ "browserName", "browserVersion", "platform" })
+	public void setUp(String browserName, String browserVersion, String platform)
+			throws MalformedURLException, URISyntaxException {
+
 		capabilities = new Setcapabilities();
-		driver = new Setcapabilities().Set_capabilities("Chrome", "latest", "Windows 10", "simpleFormDemoTest");
+		driver = capabilities.Set_capabilities(browserName, browserVersion, platform, "simpleFormDemoTest");
 	}
 
 	@Test
@@ -40,6 +45,7 @@ public class TestScenario1 {
 		myAssert.assertEquals(actualMessage, expectedMessage,
 				"Mismatch between expected and actual displayed messages.");
 		myAssert.assertAll();
+		System.out.println("Test ID: " + ((RemoteWebDriver) driver).getSessionId());
 
 		driver.quit();
 	}

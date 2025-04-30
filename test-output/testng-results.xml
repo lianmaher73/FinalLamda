@@ -2,44 +2,95 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-30T08:01:20 GMT+03:00" name="Suite" finished-at="2025-04-30T08:02:07 GMT+03:00" duration-ms="47338">
+  <suite started-at="2025-04-30T08:28:37 GMT+03:00" name="Suite" finished-at="2025-04-30T08:29:11 GMT+03:00" duration-ms="34125">
     <groups>
     </groups>
-    <test started-at="2025-04-30T08:01:20 GMT+03:00" name="Test1" finished-at="2025-04-30T08:01:34 GMT+03:00" duration-ms="13939">
-      <class name="lamda.test.TestScenario1">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:lamda.test.TestScenario1@7dc0f706]" started-at="2025-04-30T08:01:20 GMT+03:00" name="setUp" finished-at="2025-04-30T08:01:28 GMT+03:00" duration-ms="8240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="simpleFormDemoTest()[pri:0, instance:lamda.test.TestScenario1@7dc0f706]" started-at="2025-04-30T08:01:28 GMT+03:00" name="simpleFormDemoTest" finished-at="2025-04-30T08:01:34 GMT+03:00" duration-ms="5617" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simpleFormDemoTest -->
-      </class> <!-- lamda.test.TestScenario1 -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-04-30T08:01:20 GMT+03:00" name="Test2" finished-at="2025-04-30T08:01:42 GMT+03:00" duration-ms="21744">
+    <test started-at="2025-04-30T08:28:37 GMT+03:00" name="Chrome on Windows 10" finished-at="2025-04-30T08:28:51 GMT+03:00" duration-ms="13778">
       <class name="lamda.test.TestScenario2">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:lamda.test.TestScenario2@31f9b85e]" started-at="2025-04-30T08:01:20 GMT+03:00" name="setUp" finished-at="2025-04-30T08:01:36 GMT+03:00" duration-ms="16185" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lamda.test.TestScenario2@1ebd319f]" started-at="2025-04-30T08:28:37 GMT+03:00" name="setUp" finished-at="2025-04-30T08:28:45 GMT+03:00" duration-ms="8138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="rangeTest()[pri:0, instance:lamda.test.TestScenario2@31f9b85e]" started-at="2025-04-30T08:01:36 GMT+03:00" name="rangeTest" finished-at="2025-04-30T08:01:42 GMT+03:00" duration-ms="5519" status="PASS">
+        <test-method signature="rangeTest()[pri:0, instance:lamda.test.TestScenario2@1ebd319f]" started-at="2025-04-30T08:28:45 GMT+03:00" name="rangeTest" finished-at="2025-04-30T08:28:51 GMT+03:00" duration-ms="5588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- rangeTest -->
       </class> <!-- lamda.test.TestScenario2 -->
-    </test> <!-- Test2 -->
-    <test started-at="2025-04-30T08:01:34 GMT+03:00" name="Test3" finished-at="2025-04-30T08:02:07 GMT+03:00" duration-ms="33310">
-      <class name="lamda.test.TestScenario3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:lamda.test.TestScenario3@6db9f5a4]" started-at="2025-04-30T08:01:34 GMT+03:00" name="setUp" finished-at="2025-04-30T08:01:44 GMT+03:00" duration-ms="10375" status="PASS">
+    </test> <!-- Chrome on Windows 10 -->
+    <test started-at="2025-04-30T08:28:37 GMT+03:00" name="Firefox on macOS Catalina" finished-at="2025-04-30T08:29:00 GMT+03:00" duration-ms="22626">
+      <class name="lamda.test.TestScenario1">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lamda.test.TestScenario1@4988d8b8]" started-at="2025-04-30T08:28:37 GMT+03:00" name="setUp" finished-at="2025-04-30T08:28:52 GMT+03:00" duration-ms="14800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Catalina]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="inputFormTest()[pri:0, instance:lamda.test.TestScenario3@6db9f5a4]" started-at="2025-04-30T08:01:44 GMT+03:00" name="inputFormTest" finished-at="2025-04-30T08:02:07 GMT+03:00" duration-ms="22926" status="PASS">
+        <test-method signature="simpleFormDemoTest()[pri:0, instance:lamda.test.TestScenario1@4988d8b8]" started-at="2025-04-30T08:28:52 GMT+03:00" name="simpleFormDemoTest" finished-at="2025-04-30T08:29:00 GMT+03:00" duration-ms="7786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpleFormDemoTest -->
+      </class> <!-- lamda.test.TestScenario1 -->
+    </test> <!-- Firefox on macOS Catalina -->
+    <test started-at="2025-04-30T08:28:51 GMT+03:00" name="Edge on Windows 10" finished-at="2025-04-30T08:29:11 GMT+03:00" duration-ms="20266">
+      <class name="lamda.test.TestScenario3">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:lamda.test.TestScenario3@d21a74c]" started-at="2025-04-30T08:28:51 GMT+03:00" name="setUp" finished-at="2025-04-30T08:28:57 GMT+03:00" duration-ms="6396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[latest]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="inputFormTest()[pri:0, instance:lamda.test.TestScenario3@d21a74c]" started-at="2025-04-30T08:28:57 GMT+03:00" name="inputFormTest" finished-at="2025-04-30T08:29:11 GMT+03:00" duration-ms="13865" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputFormTest -->
       </class> <!-- lamda.test.TestScenario3 -->
-    </test> <!-- Test3 -->
+    </test> <!-- Edge on Windows 10 -->
   </suite> <!-- Suite -->
 </testng-results>

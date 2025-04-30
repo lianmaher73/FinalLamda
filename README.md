@@ -1,5 +1,3 @@
-https://github.com/LianmaherAltibbi/lamdaExam# Selenium 101 - LambdaTest Assignment
-
 This project is a solution for the **Selenium 101 Assignment** provided by LambdaTest. It includes automated test scenarios for the [LambdaTest Selenium Playground](https://www.lambdatest.com/selenium-playground), using **Java**, **TestNG**, and **Selenium Grid on LambdaTest**.
 
 ---
@@ -50,7 +48,7 @@ Each class executes on a separate thread using TestNG's `parallel=classes`.
 
 Click below to open the repo in Gitpod:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/LianmaherAltibbi/test1)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/lianmaher73/FinalLamda)
 
 ### 2. Run Tests
 
